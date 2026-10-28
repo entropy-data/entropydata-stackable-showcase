@@ -35,7 +35,7 @@ spec:
                 value: "http://$(NODE_IP):30000/"
               - name: GITEA__SERVER__DOMAIN
                 value: "$(NODE_IP)"
-    - repoURL: "https://github.com/entropy-data/entropydata-dbt-demo.git"
+    - repoURL: "https://github.com/entropy-data/entropydata-stackable-showcase.git"
       targetRevision: "main"
       path: infrastructure/forgejo-manifests/
   syncPolicy:
