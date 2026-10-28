@@ -66,6 +66,6 @@ data:
 
     resource "forgejo_repository" "clone" {
       name       = "entropydata-dbt-demo"
-      clone_addr = "https://github.com/entropy-data/entropydata-dbt-demo.git"
+      clone_addr = "https://github.com/entropy-data/entropydata-stackable-showcase.git"
       mirror     = false
     }
